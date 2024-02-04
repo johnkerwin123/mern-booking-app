@@ -91,8 +91,8 @@ const Register = () => {
                     <span className="text-red-500">{errors.confirmPassword.message}</span>
                 )}
             </label>
-            <span>
-                <button type="submit" className="bg-blue-600 text-white p-2 font-medium hover:text-orange-400 rounded-sm">Submit Account</button>
+            <span className="flex justify-end">
+                <button type="submit" className="bg-gray-800 text-white px-4 py-2 font-medium hover:text-orange-400 rounded-sm">Submit Account</button>
             </span>
         </form>
     );

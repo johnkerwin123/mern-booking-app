@@ -60,7 +60,7 @@ const SignIn = () => {
                 <span className="text-sm">
                     Not Registered? <Link className="underline" to="/register">Create an account here</Link>
                 </span>
-                <button type="submit" className="bg-gray-800 text-white px-3 py-1 font-medium hover:text-orange-400 rounded-sm">Log In</button>
+                <button type="submit" className="bg-gray-800 text-white px-4 py-2 font-medium hover:text-orange-400 rounded-sm">Log In</button>
             </span>
        </form>
     );

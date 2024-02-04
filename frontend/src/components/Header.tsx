@@ -15,13 +15,13 @@ const Header = () => {
                     {isLoggedIn ? (
                         <>
                             <Link 
-                                className="flex items-center bg-gray-500 text-white rounded-sm px-3 py-1 font-medium hover:text-orange-400"
+                                className="flex items-center bg-gray-600 text-white rounded-sm px-3 py-1 font-medium hover:text-orange-400"
                                 to="/my-bookings"
                             >
                                 My Bookings
                             </Link>
                             <Link  
-                                className="flex items-center bg-gray-500 text-white rounded-sm px-3 py-1 font-medium hover:text-orange-400" 
+                                className="flex items-center bg-gray-600 text-white rounded-sm px-3 py-1 font-medium hover:text-orange-400" 
                                 to="/my-hotels"
                             >
                                 My Hotels
@@ -31,7 +31,7 @@ const Header = () => {
                     ) : (
                       <Link 
                         to="/sign-in" 
-                        className="flex items-center bg-gray-500 rounded-sm text-white px-3 font-medium hover:text-orange-400"
+                        className="flex items-center bg-gray-600 rounded-sm text-white px-3 font-medium hover:text-orange-400"
                         >
                             Sign in
                         </Link> 
