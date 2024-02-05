@@ -1,5 +1,4 @@
 const Hero = () => {
-    
     return (
         <div className="bg-gray-500 p-16">
             <div className="container mx-auto flex flex-col gap-2">

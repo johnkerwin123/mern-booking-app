@@ -1,8 +1,8 @@
-import { useFormContext } from "react-hook-form"
+import { useFormContext } from "react-hook-form";
 import { HotelFormData } from "./ManageHotelForm";
 
 const DetailsSection = () => {
-  const { register, formState: { errors } } = useFormContext<HotelFormData>();
+  const { register, formState: { errors }, } = useFormContext<HotelFormData>();
 
   return (
     <div className="flex flex-col gap-4 mt-3">
