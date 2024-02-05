@@ -156,4 +156,4 @@ const GuestInfoForm = ({ hotelId, pricePerNight }: Props) => {
   );
 };
 
-export default GuestInfoForm; 
+export default GuestInfoForm;
